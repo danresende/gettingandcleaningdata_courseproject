@@ -44,7 +44,6 @@ colnames(data) <- tolower(colnames(data))
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy.data <- group_by(data, activity, subject) %>% summarise_each(funs(mean))
-
 write.table(tidy.data, file = "./UCI HAR Dataset/tidy_data.txt", row.names = FALSE)
 
 # cleans the working space
