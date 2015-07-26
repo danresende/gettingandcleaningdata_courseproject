@@ -8,4 +8,4 @@ The script loads the raw data into R and merges all together. Then it labels pro
 To work properly, the raw data should be extracted and unziped in a file called "UCI HAR Dataset" at the working directory.
 The output is the tidy.data, the means for each activity and each subject, saved in a txt file called tidy_data.txt.
 ## About the Code Book.
-The Code Book (codebook.md) explains the variables of the resulting data.
+The Code Book (CodeBook.md) explains the variables of the resulting data.
